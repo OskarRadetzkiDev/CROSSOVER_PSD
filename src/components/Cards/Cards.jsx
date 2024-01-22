@@ -9,7 +9,7 @@ function Cards() {
     <div className='cards-bg'>
         <div className='cards-title'>
             Title here
-            <p className='cards-p'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat</p>
+            <p className='cards-p'>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.</p>
         </div>
         <div className='card-wrapper'>
         <div className='card'>

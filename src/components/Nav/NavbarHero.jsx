@@ -8,7 +8,7 @@ function NavbarHero() {
   <div className='hero'>
     <div className='navbar-hero'>
     <nav className='navbar'>
-      <div className='navbar__logo'>
+      <div>
         <img src={logo} alt='petcare-logo' className='logo' />
       </div>
       <div className='navbar-links'>
