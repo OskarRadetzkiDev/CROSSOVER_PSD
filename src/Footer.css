@@ -17,6 +17,7 @@ body {
     font-size: 30px;
     margin: 0;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer2, .footer3, .footer4 {
@@ -32,7 +33,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     height: 450px;
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(44, 44, 44);
     padding: 0;
     margin: 0;
 }
@@ -40,8 +41,9 @@ body {
 .footer-a {
     text-decoration: none;
     font-weight: lighter;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-a:hover {
@@ -61,7 +63,8 @@ body {
 }
 
 .footer-p {
-    font-size: 30px;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-ul {
