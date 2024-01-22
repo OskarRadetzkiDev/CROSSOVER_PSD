@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* -- Darko's Part -- */
+
+.section-4 {
+  padding: 150px 20px;
+  background-color: #5380c1;
+  color: #fff;
+}
+.section-4-container {
+  max-width: 1600px;
+  margin: auto;
+  position: relative;
+}
+
+.section-4-row {
+  display: flex;
+  align-items: center;
+}
+
+.section-4-left-section,
+.section-4-right-section {
+  width: 50%;
+}
+
+.section-4 h3 {
+  font-size: 80px;
+  font-weight: 600;
+  margin-bottom: 33px;
+}
+
+.section-4 p {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.section-4 .text-content {
+  max-width: 580px;
+}
+
+.section-4 button {
+  background-color: #edc315;
+  color: #fff;
+  font-size: 26px;
+  padding: 15px 90px;
+  border: none;
+  font-weight: 600;
+  margin-top: 30px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.section-4 .img-wrapper {
+  width: 600px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.section-4 img {
+  height: 100%;
+  width: 100%;
+}
+.section-4-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.section-4.section-5 {
+  background-color: #739ee3;
+}
+
+.text-center {
+  text-align: center;
+}
+.title-section.text-center {
+  margin: 0 auto 140px auto;
+  max-width: 1200px;
+}
+
+.section-4-row.section-4-row-card-wrapper {
+  justify-content: space-between;
+}
+
+.section-4-row-card {
+  background-color: #fff;
+  border-radius: 5px;
+  color: #7baee6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 10px;
+  width: 28%;
+  text-align: center;
+}
+
+.icon-wrapper {
+  height: 200px;
+  width: 200px;
+}
+
+.section-4-row-card h3 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.section-4-row-card p {
+  font-size: 30px;
+}
+
+.section-4-row-card .price {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 1230px) {
+  .section-4 .img-wrapper {
+    width: 500px;
+  }
+  .section-4-row-card {
+    width: 32%;
+  }
+}
+
+@media (max-width: 1170px) {
+  .section-4 p {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1084px) {
+  .section-4 button {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1048px) {
+  .section-4 .img-wrapper {
+    width: 400px;
+  }
+  .section-4-row-card {
+    width: 32%;
+  }
+  .section-4 p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .section-4-row.section-4-row-card-wrapper {
+    flex-wrap: wrap;
+  }
+  .section-4-row-card {
+    width: 48%;
+    margin: 10px 5px;
+  }
+  .section-4 p {
+    font-size: 22px;
+  }
+  .section-4 h3 {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 33px;
+  }
+}
+@media (max-width: 860px) {
+  .section-4 .img-wrapper {
+    width: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .section-4-row {
+    flex-direction: column;
+  }
+  .section-4-left-section,
+  .section-4-right-section {
+    width: 100%;
+  }
+  .section-4-row-card {
+    width: 100%;
+  }
+  .section-4-left-section.section-4-text-section,
+  .section-4-right-section.section-4-text-section {
+    display: flex;
+    justify-content: center;
+  }
+  .section-4 .text-content {
+    max-width: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .section-4-right-section.section-4-img-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .section-4 {
+    padding: 80px 15px;
+  }
+}
