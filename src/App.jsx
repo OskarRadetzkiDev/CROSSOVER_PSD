@@ -14,10 +14,10 @@ function App() {
     <>
       <NavbarHero />
       <Cards />
+      <Info />
       <Component4 />
       <Component5 />
       <Component6 />
-      <Info />
       <Component7 />
       <Component8 />
       <Footer />
