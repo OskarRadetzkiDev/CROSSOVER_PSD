@@ -13,11 +13,31 @@ body {
   padding: 150px 20px;
   background-color: #5380c1;
   color: #fff;
+  position: relative;
 }
 .section-4-container {
   max-width: 1600px;
   margin: auto;
   position: relative;
+}
+.triangle-wrapper-3 {
+  position: absolute;
+  bottom: -41px;
+  z-index: 99999;
+  right: 100px;
+}
+
+.triangle-wrapper-1 {
+  position: absolute;
+  top: 90px;
+  z-index: 99999;
+  left: 230px;
+}
+.triangle-wrapper-4 {
+  position: absolute;
+  bottom: 68px;
+  z-index: 99999;
+  right: 230px;
 }
 
 .section-4-row {
@@ -99,6 +119,15 @@ body {
   width: 28%;
   text-align: center;
 }
+.triangle-wrapper {
+  height: 80px;
+  width: 80px;
+}
+
+.triangle-wrapper img {
+  height: 100%;
+  width: 100%;
+}
 
 .icon-wrapper {
   height: 200px;
@@ -176,6 +205,12 @@ body {
   }
 }
 @media (max-width: 767px) {
+  .triangle-wrapper-4 {
+    position: absolute;
+    bottom: -24px;
+    z-index: 99999;
+    right: 130px;
+  }
   .section-4-row {
     flex-direction: column;
   }
