@@ -1,0 +1,80 @@
+.component7-bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+    background-image: url('./assets/component7-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.c7-box {
+    display: inline-flex;
+    align-items: center;
+    height: 400px;
+    padding: 0 0 0 100px;
+}
+
+.c7-box1 {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.c7-box2 {
+    display: inline-flex;
+}
+
+.c7-icon {
+    padding: 0px 50px 100px 100px;
+}
+
+.c7-p {
+    display: flex;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    width: 75%;
+    
+    padding-bottom: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.c7-h2 {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.c7-box0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+.c7-titel {
+    display: flex;
+    color: white;
+    font-size: 60px;
+    margin: 50px 0 0 0;
+    font-weight: bolder;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.c7-titel-p {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-items: center;
+    width: 55%;
+    color: white;
+    padding: 0 0 50px 0;
+    font-size: 30px;
+    font-weight: 400;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
